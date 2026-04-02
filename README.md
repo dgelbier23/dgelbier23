@@ -1,91 +1,88 @@
-# Building AI systems that translate data into real-world impact — with a focus on healthcare
+# Designing AI systems that hold up in the real world — with a focus on healthcare
 
-I’m an MSc Artificial Intelligence student with a background in Computer Science, focused on designing and deploying machine learning systems that operate beyond theory.
+I build machine learning systems that move beyond experimentation into **reliable, deployable solutions**.
 
-My work sits at the intersection of **AI engineering, applied research, and real-world deployment** — from production-level analytics at BMW Group to current exploration in medical AI and large language models.
-
----
-
-## 🧠 What I’m Working On
-
-- Applying **Large Language Models (LLMs)** to medical question answering and decision support  
-- Exploring **Retrieval-Augmented Generation (RAG)** for grounded, reliable AI systems  
-- Fine-tuning models using **PEFT (LoRA)** and optimisation strategies  
-- Investigating **multimodal AI** for healthcare (text, imaging, structured data)  
-- Building systems with a strong focus on **ethics, bias reduction, and real-world usability**  
+With a background in Computer Science and an MSc in Artificial Intelligence, my work spans **industry-scale AI deployment** and **emerging research in medical AI**. I’m particularly interested in how we make complex models — especially LLMs — **trustworthy, efficient, and usable in high-stakes environments**.
 
 ---
 
-## ⚙️ Technical Skills
+## 🧠 Current Focus
 
-**Languages & Core Tools**  
-- Python  
-- PyTorch  
-- HuggingFace Transformers  
-- Streamlit  
+- Applying **Large Language Models (LLMs)** to medical reasoning and question answering  
+- Building **Retrieval-Augmented Generation (RAG)** systems for grounded outputs  
+- Fine-tuning with **parameter-efficient methods (LoRA / PEFT)**  
+- Exploring **multimodal AI** across text, imaging, and structured data  
+- Evaluating models with an emphasis on **robustness, bias, and real-world constraints**  
 
-**AI / ML Domains**  
-- Natural Language Processing (NLP)  
-- Computer Vision
-- Robotics
-- Multimodal Learning  
-- Time Series Forecasting  
+---
 
-**Techniques & Systems**  
-- Model Fine-Tuning (LoRA, PEFT)  
-- Retrieval-Augmented Generation (RAG)  
-- OCR + NLP Pipelines  
-- Data Analytics & Feature Engineering  
+## ⚙️ Technical Toolkit
+
+**Core**  
+Python · PyTorch · HuggingFace · Streamlit  
+
+**AI Domains**  
+NLP · Computer Vision · Multimodal Learning · Time Series  
+
+**Systems & Methods**  
+RAG · Model Fine-Tuning · OCR + NLP Pipelines · Data Engineering  
 
 ---
 
 ## 🏭 Selected Work
 
-### 🔍 AI-Powered Error Detection System  
-Developed during industry placement at BMW Group (MINI Oxford)  
-- Designed a **portable AI system** for detecting assembly errors  
-- Combined computer vision and real-time inference  
-- Delivered a scalable solution with strong cost-saving potential  
+### AI-Powered Error Detection (BMW Group — MINI Oxford)
+- Designed and deployed a **portable computer vision system** for assembly error detection  
+- Operated under real production constraints (latency, reliability, usability)  
+- Delivered a scalable solution with measurable cost-saving potential  
 
 ---
 
-### 📊 Time Series Forecasting for Operational Efficiency  
+### Time Series Forecasting for Industrial Operations
 - Built predictive models to optimise production workflows  
-- Translated raw industrial data into actionable insights  
-- Focused on reliability and real-world deployment constraints  
+- Transformed raw operational data into **actionable, decision-support insights**  
+- Focused on robustness in noisy, real-world environments  
 
 ---
 
-### 💬 Intelligent Chatbot Systems  
-- Developed LLM-powered chatbots for internal tooling  
-- Integrated NLP pipelines for contextual understanding  
-- Designed for usability across non-technical teams  
+### LLM-Based Intelligent Systems
+- Developed chatbot and NLP systems for internal tooling  
+- Designed pipelines for **context-aware responses and information retrieval**  
+- Bridging practical deployment with modern LLM capabilities  
 
 ---
 
-### 🧾 OCR + NLP Document Processing  
-- Built pipelines to extract and structure information from documents  
-- Combined OCR with downstream NLP for automation  
-- Applied to real operational workflows  
+### OCR + NLP Automation Pipelines
+- Engineered document processing systems combining OCR and NLP  
+- Converted unstructured data into structured, usable formats  
+- Applied to real operational and administrative workflows  
 
 ---
 
-### 🧠 Current Research: Medical AI & LLM Optimisation  
-- Exploring **LLMs in healthcare applications**  
-- Investigating **efficient fine-tuning and evaluation strategies**  
-- Working toward robust, trustworthy AI systems in sensitive domains  
+## 🔬 Research Direction
+
+I’m particularly interested in:
+
+- **Medical AI systems that can be trusted in practice, not just in benchmarks**  
+- Efficient adaptation of large models for **domain-specific use (healthcare)**  
+- Bridging the gap between **ML research and deployable systems**  
+- Designing AI that is **interpretable, reliable, and ethically grounded**  
 
 ---
 
-## 🎯 Direction
+## 📌 Philosophy
 
-I’m particularly interested in building AI systems that:
-- Operate reliably in **high-stakes environments**  
-- Bridge the gap between **research and deployment**  
-- Contribute meaningfully to **healthcare and human wellbeing**  
+Good AI systems don’t just perform well — they:
+- Fail predictably  
+- Communicate uncertainty  
+- Integrate cleanly into real workflows  
+
+That’s the standard I aim to build toward.
 
 ---
 
-## 📫 Connect
+## 📫 Open to
 
-- Open to collaboration, research discussions, and opportunities in AI/ML  
+- AI/ML engineering roles  
+- Research collaborations (especially in medical AI)  
+- Conversations around real-world AI deployment  
