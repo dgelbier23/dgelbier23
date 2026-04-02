@@ -97,14 +97,14 @@ I care about systems that are reliable, explainable, and actually deployed — n
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=dgelbier23&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dgelbier23&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
 
 </div>
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=tokyo-night&hide_border=true&area=true" width="95%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=dgelbier23&theme=tokyo-night&hide_border=true&area=true" width="95%" />
 
 </div>
 
@@ -112,8 +112,8 @@ I care about systems that are reliable, explainable, and actually deployed — n
 
 ## 🎓 Background
 
-- **MSc Artificial Intelligence** — *[University Name]*
-- **BSc Computer Science** — *[University Name]*
+- **MSc Artificial Intelligence** — *Loughborough University*
+- **BSc Artificial Intelligence and Computer Science** — *Loughborough University* — **1st**
 - **AI/ML Engineer** — BMW Group (MINI Oxford Plant)
 
 ---
