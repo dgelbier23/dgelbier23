@@ -7,7 +7,7 @@
 
 ---
 
-## Hey, I'm [Your Name] 👋
+## Hey, I'm Dylan 👋
 
 I build AI systems that work in the real world — not just on benchmarks.
 
