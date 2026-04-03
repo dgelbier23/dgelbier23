@@ -94,6 +94,8 @@ Reliable automated screening tools must prioritise **missed diagnosis risk (fals
 
 `Python` `TensorFlow` `Keras` `Deep Learning` `Computer Vision` `Medical Imaging` `Transfer Learning` `Xception` `Grad-CAM` `Model Evaluation`
 
+---
+
 ### 🏥 MedRAG — Clinical Question Answering with RAG
 > LLM-powered system that answers clinical questions grounded in indexed medical literature. Combines dense retrieval with a fine-tuned reader model to reduce hallucination in high-stakes contexts.
 `PyTorch` `LangChain` `HuggingFace` `FAISS` `Streamlit`
