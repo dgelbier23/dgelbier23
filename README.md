@@ -96,6 +96,25 @@ Reliable automated screening tools must prioritise **missed diagnosis risk (fals
 
 ---
 
+### 🤖 Perception-Driven Human Following Robot
+🔗 [Repository](LINK) • 📄 [Report](LINK) • 🎥 [Demo](LINK)
+
+> This system integrates YOLO-based detection, DeepSORT identity tracking, and RGB-D depth estimation into a closed-loop autonomous robot deployed on embedded hardware. The architecture is designed around a single constraint: no verified perception signal means no motor command. Detection feeds into a Kalman-filter tracker that maintains target identity across frames using appearance embeddings, selecting the oldest confirmed track to prevent switching when bystanders enter the scene. A sparse depth sampling pipeline with outlier rejection produces lateral offset and distance estimates from RGB-D data, which drive a PID-based differential controller with angular correction derived from `arctan(X/Z)`. The system evolved from a reactive detection-only baseline that failed in multi-person environments — the redesign treats perception and tracking as separable concerns and enforces hard safety interlocks at every stage.
+
+- **YOLO + DeepSORT pipeline** — Real-time detection filtered to person class, fed into a tracker that maintains identity through occlusion using Kalman prediction and ReID embeddings
+- **Identity persistence under occlusion** — Oldest-track selection policy eliminates mid-sequence ID switching with no additional compute; Kalman prediction sustains tracking through short occlusion events
+- **Depth-based spatial estimation** — Sparse RGB-D sampling inside a central bounding box crop with statistical outlier rejection; outputs lateral offset (X) and distance (Z) per frame
+- **PID control system** — Independent distance and angular PID loops; deadband on distance channel suppresses steady-state oscillation; exponential smoothing on motor outputs reduces jitter from depth noise
+- **Embedded real-time deployment** — System designed under inference latency constraints on ARM/Jetson hardware; model selection and pipeline depth tuned for frame-rate viability
+- **Structured evaluation** — Tested across single-person baselines, multi-person distractor scenes, full and partial occlusion events, and sensor noise conditions; metrics include ID switch rate, tracking stability, and RMS distance/angular error
+
+**Why it matters:**
+Robust human-following under real-world conditions — crowds, occlusions, varying lighting, constrained compute — is a fundamental capability for assistive robots, logistics platforms, and mobile co-robots operating alongside people. The engineering challenge is not any single component; it is the integration of perception, tracking, and control into a system that degrades predictably and fails safely. This project demonstrates that architecture and policy design (how components interact and what the system does when they fail) matter as much as the accuracy of any individual model.
+
+`Python` `PyTorch` `Computer Vision` `Robotics` `Autonomous Systems` `YOLO` `DeepSORT` `Embedded AI` `Control Systems` `RGB-D` `PID Control` `Real-Time Systems`
+
+---
+
 ### 🏥 MedRAG — Clinical Question Answering with RAG
 > LLM-powered system that answers clinical questions grounded in indexed medical literature. Combines dense retrieval with a fine-tuned reader model to reduce hallucination in high-stakes contexts.
 `PyTorch` `LangChain` `HuggingFace` `FAISS` `Streamlit`
