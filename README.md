@@ -131,24 +131,6 @@ Robust human-following in real-world conditions requires more than accurate mode
 
 ---
 
-### 🤖 Vision-Guided Error Detection System *(BMW Group)*
-> Computer vision system developed for a robotics assembly environment at MINI Oxford, focused on real-time defect detection under production constraints.
-`OpenCV` `PyTorch` `ONNX` `C++`
-
----
-
-### 📈 Time Series Forecasting for Manufacturing Operations
-> Multivariate forecasting system for predicting production bottlenecks and maintenance windows. Evaluated LSTM, Temporal Fusion Transformers, and classical baselines.
-`PyTorch` `Prophet` `scikit-learn` `Pandas`
-
----
-
-### 📄 OCR + NLP Document Processing Pipeline
-> Automated extraction and structuring of information from scanned engineering and compliance documents. Combined Tesseract OCR with custom NLP post-processing to achieve high accuracy on domain-specific formats.
-`Tesseract` `spaCy` `HuggingFace` `Python`
-
----
-
 ## 📊 GitHub Stats
 
 <div align="center">
