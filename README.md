@@ -9,7 +9,9 @@
 
 ## Hey, I'm Dylan 👋
 
-I build AI systems that work in the real world — not just on benchmarks.
+I design and build AI systems with a focus on real-world constraints — not just benchmark performance.
+
+My work focuses on making modern AI systems — particularly LLMs and vision models — **reliable, efficient, and usable in high-stakes domains like healthcare**.
 
 My background sits at the intersection of **machine learning**, **computer vision**, and **healthcare AI**. I've shipped production systems at BMW Group (MINI Oxford), where I worked on everything from robotic vision pipelines to NLP-driven OCR tools. Now I'm focused on where I think the most important problems are: **medical AI** and **LLM-powered clinical tools**.
 
@@ -25,7 +27,14 @@ I care about systems that are reliable, explainable, and actually deployed — n
 - **Multimodal AI** — combining vision and language for richer medical understanding
 
 ---
+## 🎯 Selected Focus Areas
 
+- Reliable AI systems in high-stakes environments  
+- Efficient adaptation of large models (LLMs, multimodal systems)  
+- Bridging research prototypes → usable systems  
+- Evaluation beyond benchmarks (robustness, failure modes, bias)  
+
+---
 ## 🛠 Technical Stack
 
 **Core Languages**
@@ -80,7 +89,7 @@ I care about systems that are reliable, explainable, and actually deployed — n
 ---
 
 ### 🤖 Vision-Guided Error Detection System *(BMW Group)*
-> Production computer vision system deployed on a robotics assembly line at MINI Oxford. Detected surface defects and assembly errors in real time, integrated with existing manufacturing control systems.
+> Computer vision system developed for a robotics assembly environment at MINI Oxford, focused on real-time defect detection under production constraints.
 `OpenCV` `PyTorch` `ONNX` `C++`
 
 ---
@@ -124,7 +133,18 @@ I care about systems that are reliable, explainable, and actually deployed — n
 
 ## 📄 Publications
 
-- [Artificial Intelligence and the Research and Reporting of Dental History](https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=2&hl=en&user=K_mGkm8AAAAJ&authuser=2)
+- **Artificial Intelligence and the Research and Reporting of Dental History**
+  Explores the application of AI in analysing and structuring historical dental research data
+  → https://scholar.google.com/citations?user=K_mGkm8AAAAJ
+  (https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=2&hl=en&user=K_mGkm8AAAAJ&authuser=2)
+
+---
+
+## 🧩 How I Approach Problems
+
+- Start from the real-world constraint, not the model  
+- Prefer simple, robust systems over complex, fragile ones  
+- Treat evaluation as seriously as modelling
 
 ---
 
