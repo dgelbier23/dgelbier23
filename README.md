@@ -34,7 +34,7 @@ I care about systems that are reliable, explainable, and actually deployed — n
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![JavaScript](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat-square)
 ![HTML](https://shields.io/badge/HTML-f06529?logo=html5&logoColor=white&labelColor=f06529)
-![CSS](https://img.shields.io/badge/CSS-gray?style=for-the-badge&logo=CSS&logoSize=auto)
+![CSS](https://img.shields.io/badge/CSS-gray?style=flat-square&logo=CSS&logoSize=auto)
 ![SQL](https://img.shields.io/badge/SQL-14161A?style=flat-square&logo=postgresql&logoColor=4169E1)
 
 **ML & AI**
