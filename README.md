@@ -97,21 +97,25 @@ Reliable automated screening tools must prioritise **missed diagnosis risk (fals
 ---
 
 ### 🤖 Perception-Driven Human Following Robot
+
 🔗 [Repository](https://github.com/dgelbier23/perception-driven-human-following-robot) • 📄 [Report](https://github.com/dgelbier23/perception-driven-human-following-robot/blob/main/reports/perception-driven-human-following-robot_report.pdf) • 🎥 [Demo](https://github.com/dgelbier23/perception-driven-human-following-robot/blob/main/docs/demo-gif.gif)
 
-> This system integrates YOLO-based detection, DeepSORT identity tracking, and RGB-D depth estimation into a closed-loop autonomous robot deployed on embedded hardware. The architecture is designed around a single constraint: no verified perception signal means no motor command. Detection feeds into a Kalman-filter tracker that maintains target identity across frames using appearance embeddings, selecting the oldest confirmed track to prevent switching when bystanders enter the scene. A sparse depth sampling pipeline with outlier rejection produces lateral offset and distance estimates from RGB-D data, which drive a PID-based differential controller with angular correction derived from `arctan(X/Z)`. The system evolved from a reactive detection-only baseline that failed in multi-person environments — the redesign treats perception and tracking as separable concerns and enforces hard safety interlocks at every stage.
+> A real-time, closed-loop human-following system built on embedded hardware, integrating YOLO-based detection, DeepSORT tracking, and RGB-D depth estimation. The system enforces a strict safety constraint: no verified perception signal results in no motor output.
+> Detections are passed into a Kalman-filter-based tracker with ReID embeddings to maintain identity through occlusions. The system prioritises the oldest confirmed track to prevent ID switching in multi-person environments.
+> Depth estimation is performed via sparse RGB-D sampling within the target bounding box, with statistical outlier rejection. This produces stable lateral offset (X) and distance (Z) estimates, which feed into a PID controller with angular correction derived from `arctan(X/Z)`.
+> The architecture evolved from a detection-only baseline that failed under crowding and occlusion. The final design separates perception and control, with strict inter-stage validation and fail-safe gating to ensure predictable degradation and safe operation.
 
-- **YOLO + DeepSORT pipeline** — Real-time detection filtered to person class, fed into a tracker that maintains identity through occlusion using Kalman prediction and ReID embeddings
-- **Identity persistence under occlusion** — Oldest-track selection policy eliminates mid-sequence ID switching with no additional compute; Kalman prediction sustains tracking through short occlusion events
-- **Depth-based spatial estimation** — Sparse RGB-D sampling inside a central bounding box crop with statistical outlier rejection; outputs lateral offset (X) and distance (Z) per frame
-- **PID control system** — Independent distance and angular PID loops; deadband on distance channel suppresses steady-state oscillation; exponential smoothing on motor outputs reduces jitter from depth noise
-- **Embedded real-time deployment** — System designed under inference latency constraints on ARM/Jetson hardware; model selection and pipeline depth tuned for frame-rate viability
-- **Structured evaluation** — Tested across single-person baselines, multi-person distractor scenes, full and partial occlusion events, and sensor noise conditions; metrics include ID switch rate, tracking stability, and RMS distance/angular error
+- **YOLO + DeepSORT pipeline** — Real-time person detection with Kalman prediction and ReID-based identity tracking  
+- **Occlusion robustness** — Oldest-track selection and motion prediction maintain stable identity without ID switching  
+- **RGB-D depth estimation** — Sparse sampling with outlier rejection for reliable (X, Z) spatial estimation  
+- **PID control system** — Independent distance and angular control loops with deadband and smoothing for stability  
+- **Embedded deployment** — Optimised for real-time inference on Jetson/ARM hardware under strict latency constraints  
+- **Systematic evaluation** — Tested across multi-person scenes, occlusion events, and sensor noise; evaluated using ID switches, tracking stability, and RMS error  
 
-**Why it matters:**
-Robust human-following under real-world conditions — crowds, occlusions, varying lighting, constrained compute — is a fundamental capability for assistive robots, logistics platforms, and mobile co-robots operating alongside people. The engineering challenge is not any single component; it is the integration of perception, tracking, and control into a system that degrades predictably and fails safely. This project demonstrates that architecture and policy design (how components interact and what the system does when they fail) matter as much as the accuracy of any individual model.
+**Why it matters**  
+Robust human-following in real-world conditions requires more than accurate models — it demands careful system design across perception, tracking, and control. This project demonstrates how architectural decisions and failure handling enable reliable behaviour in crowded, dynamic environments.
 
-`Python` `PyTorch` `Computer Vision` `Robotics` `Autonomous Systems` `YOLO` `DeepSORT` `Embedded AI` `Control Systems` `RGB-D` `PID Control` `Real-Time Systems`
+`Python` `PyTorch` `Computer Vision` `Robotics` `YOLO` `DeepSORT` `RGB-D` `PID Control` `Embedded AI`
 
 ---
 
