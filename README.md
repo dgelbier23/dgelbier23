@@ -77,7 +77,7 @@ I care about systems that are reliable, explainable, and actually deployed — n
 ## 🚀 Featured Projects
 
 ### 🫁 Transfer Learning for Lung Disease Classification & Localisation from Chest X-Rays  
-🔗 [Repository](https://github.com/dgelbier23/lung-disease-classification-localisation.git) • 📄 [Report](https://github.com/dgelbier23/lung-disease-classification-localisation/reports/lung_disease_classification_report.pdf) • 🎥 [Demo](https://github.com/dgelbier23/lung-disease-classification-localisation/figures/gradcam/localisation_gradcam_ex.png)
+🔗 [Repository](https://github.com/dgelbier23/lung-disease-classification-localisation.git) • 📄 [Report](https://github.com/dgelbier23/lung-disease-classification-localisation/blob/main/reports/lung_disease_classification_report.pdf) • 🎥 [Demo](https://github.com/dgelbier23/lung-disease-classification-localisation/blob/main/figures/gradcam/localisation_gradcam_ex.png)
 
 > Deep learning pipeline for multi-class classification and visual localisation of pulmonary disease from chest X-rays (Healthy, Pneumonia, COVID-19). Built around a controlled transfer learning framework using an ImageNet-pretrained Xception backbone, the project prioritises clinically meaningful evaluation (recall, macro-F1) under class imbalance and subtle inter-class overlap.  
 > The system combines robust preprocessing, weighted optimisation, and Grad-CAM interpretability to produce both predictions and spatial insight into model decision-making.
