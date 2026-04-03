@@ -97,7 +97,7 @@ Reliable automated screening tools must prioritise **missed diagnosis risk (fals
 ---
 
 ### 🤖 Perception-Driven Human Following Robot
-🔗 [Repository](https://github.com/dgelbier23/perception-driven-human-following-robot) • 📄 [Report](https://github.com/dgelbier23/perception-driven-human-following-robot/blob/main/reports/perception-driven-human-following-robot_report.pdf) • 🎥 [Demo](https://github.com/dgelbier23/perception-driven-human-following-robot/blob/main/docs/demo-gif.gif))
+🔗 [Repository](https://github.com/dgelbier23/perception-driven-human-following-robot) • 📄 [Report](https://github.com/dgelbier23/perception-driven-human-following-robot/blob/main/reports/perception-driven-human-following-robot_report.pdf) • 🎥 [Demo](https://github.com/dgelbier23/perception-driven-human-following-robot/blob/main/docs/demo-gif.gif)
 
 > This system integrates YOLO-based detection, DeepSORT identity tracking, and RGB-D depth estimation into a closed-loop autonomous robot deployed on embedded hardware. The architecture is designed around a single constraint: no verified perception signal means no motor command. Detection feeds into a Kalman-filter tracker that maintains target identity across frames using appearance embeddings, selecting the oldest confirmed track to prevent switching when bystanders enter the scene. A sparse depth sampling pipeline with outlier rejection produces lateral offset and distance estimates from RGB-D data, which drive a PID-based differential controller with angular correction derived from `arctan(X/Z)`. The system evolved from a reactive detection-only baseline that failed in multi-person environments — the redesign treats perception and tracking as separable concerns and enforces hard safety interlocks at every stage.
 
