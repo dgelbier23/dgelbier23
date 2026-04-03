@@ -31,12 +31,16 @@ I care about systems that are reliable, explainable, and actually deployed — n
 **Core Languages**
 
 ![Python](https://img.shields.io/badge/Python-14161A?style=flat-square&logo=python&logoColor=3776AB)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![JavaScript](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat-square)
+![HTML](https://shields.io/badge/HTML-f06529?logo=html5&logoColor=white&labelColor=f06529)
+![CSS](https://img.shields.io/badge/CSS-gray?style=for-the-badge&logo=CSS&logoSize=auto)
 ![SQL](https://img.shields.io/badge/SQL-14161A?style=flat-square&logo=postgresql&logoColor=4169E1)
-![Bash](https://img.shields.io/badge/Bash-14161A?style=flat-square&logo=gnubash&logoColor=white)
 
 **ML & AI**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-14161A?style=flat-square&logo=pytorch&logoColor=EE4C2C)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=TensorFlow&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-14161A?style=flat-square&logo=huggingface&logoColor=FFD21E)
 ![scikit--learn](https://img.shields.io/badge/scikit--learn-14161A?style=flat-square&logo=scikit-learn&logoColor=F7931E)
 ![OpenCV](https://img.shields.io/badge/OpenCV-14161A?style=flat-square&logo=opencv&logoColor=5C3EE8)
