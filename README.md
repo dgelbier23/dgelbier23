@@ -134,8 +134,8 @@ I care about systems that are reliable, explainable, and actually deployed — n
 ## 📄 Publications
 
 - **Artificial Intelligence and the Research and Reporting of Dental History**
-  
   → Explores the application of AI in analysing and structuring historical dental research data
+  
   → https://scholar.google.com/citations?user=K_mGkm8AAAAJ
 
 ---
