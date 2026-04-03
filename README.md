@@ -76,6 +76,24 @@ I care about systems that are reliable, explainable, and actually deployed — n
 
 ## 🚀 Featured Projects
 
+### 🫁 Transfer Learning for Lung Disease Classification & Localisation from Chest X-Rays  
+🔗 [Repository] • 📄 [Report] • 🎥 [Demo]
+
+> Deep learning pipeline for multi-class classification and visual localisation of pulmonary disease from chest X-rays (Healthy, Pneumonia, COVID-19). Built around a controlled transfer learning framework using an ImageNet-pretrained Xception backbone, the project prioritises clinically meaningful evaluation (recall, macro-F1) under class imbalance and subtle inter-class overlap.  
+> The system combines robust preprocessing, weighted optimisation, and Grad-CAM interpretability to produce both predictions and spatial insight into model decision-making.
+
+- Transfer learning with **Xception backbone + lightweight classification head**, balancing representational power with overfitting control  
+- Structured experimentation across **learning rate, optimiser choice, and layer unfreezing strategies**, ensuring causal performance attribution  
+- **Class imbalance handled via weighted loss**, avoiding synthetic data risks in sensitive medical domains  
+- Evaluation beyond accuracy: **macro F1 (~0.99), per-class recall, precision-recall curves, calibration analysis, confusion matrix**  
+- Integrated **Grad-CAM visualisation** for localisation, highlighting clinically relevant lung regions influencing predictions  
+- Dataset: ~15k chest X-ray images, **stratified 70/15/15 split**, minimal augmentation to preserve diagnostic fidelity  
+
+**Why it matters:**  
+Reliable automated screening tools must prioritise **missed diagnosis risk (false negatives)** over raw accuracy. This project reflects real clinical constraints—imbalanced data, ambiguous imaging, and the need for interpretability—while demonstrating how careful transfer learning design can produce robust, explainable models.
+
+`Python` `TensorFlow` `Keras` `Deep Learning` `Computer Vision` `Medical Imaging` `Transfer Learning` `Xception` `Grad-CAM` `Model Evaluation`
+
 ### 🏥 MedRAG — Clinical Question Answering with RAG
 > LLM-powered system that answers clinical questions grounded in indexed medical literature. Combines dense retrieval with a fine-tuned reader model to reduce hallucination in high-stakes contexts.
 `PyTorch` `LangChain` `HuggingFace` `FAISS` `Streamlit`
