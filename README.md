@@ -119,7 +119,7 @@ Robust human-following in real-world conditions requires more than accurate mode
 
 ---
 
-### 🧠 Adapting AlexNet for 3D Object Classification, Using a View-Based Approach for Orthodontics Classification
+### 🦷🧠 Adapting AlexNet for 3D Object Classification, Using a View-Based Approach for Orthodontics Classification
 
 🔗 [Repository](https://github.com/dgelbier23/multi-view-3d-dataset-cnn) • 📄 [Notebook](https://github.com/dgelbier23/multi-view-3d-dataset-cnn/blob/main/notebooks/main_notebook.ipynb) • 🌐 [HTML View](https://github.com/dgelbier23/multi-view-3d-dataset-cnn/blob/main/notebooks/main_notebook.html)
 
