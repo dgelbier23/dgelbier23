@@ -119,6 +119,29 @@ Robust human-following in real-world conditions requires more than accurate mode
 
 ---
 
+### 🧠 Adapting AlexNet for 3D Object Classification, Using a View-Based Approach for Orthodontics Classification
+
+🔗 [Repository](https://github.com/dgelbier23/multi-view-3d-dataset-cnn) • 📄 [Notebook](https://github.com/dgelbier23/multi-view-3d-dataset-cnn/blob/main/notebooks/main_notebook.ipynb) • 🌐 [HTML View](https://github.com/dgelbier23/multi-view-3d-dataset-cnn/blob/main/notebooks/main_notebook.html)
+
+> An end-to-end deep learning pipeline for 3D object classification, transforming raw 3D models into a structured multi-view dataset and training a CNN to distinguish between upper and lower jaw structures.
+> The system begins with a preprocessing stage that converts 3D `.obj` files into multiple 2D projections captured from different viewpoints, forming a multi-view representation that preserves spatial information while enabling efficient learning.
+> These views are aggregated into structured tensors and passed through a convolutional neural network adapted to process non-standard inputs, learning features across perspectives rather than single images.
+> The project emphasises pipeline design under real-world constraints, demonstrating how data representation, model architecture, and training strategy interact to produce a robust classification system without relying on bundled datasets.
+
+- **3D → multi-view dataset generation** — Converts 3D objects into structured 2D projections for CNN compatibility  
+- **Multi-view representation learning** — Captures spatial features across perspectives rather than single-image inputs  
+- **CNN-based classification** — Adapted architecture processes multi-view tensors for anatomical classification  
+- **End-to-end pipeline design** — Integrates data generation, preprocessing, and training into a unified workflow  
+- **Reproducible notebook implementation** — Fully contained `.ipynb` with HTML export for accessible review  
+- **Constraint-aware engineering** — Designed without bundled datasets, focusing on methodology and adaptability  
+
+**Why it matters**  
+3D data is inherently complex and difficult to process efficiently. This project demonstrates how transforming 3D structures into multi-view representations enables the use of standard deep learning techniques while preserving spatial information. By integrating dataset generation with model training, it highlights the importance of representation design and pipeline architecture in building effective AI systems under practical constraints.
+
+`Python` `PyTorch` `3D Data` `Computer Vision` `Deep Learning` `Multi-View Learning` `Medical AI`
+
+---
+
 ### 🏥 MedRAG — Clinical Question Answering with RAG
 > LLM-powered system that answers clinical questions grounded in indexed medical literature. Combines dense retrieval with a fine-tuned reader model to reduce hallucination in high-stakes contexts.
 `PyTorch` `LangChain` `HuggingFace` `FAISS` `Streamlit`
