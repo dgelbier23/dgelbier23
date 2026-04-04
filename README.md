@@ -141,10 +141,26 @@ Robust human-following in real-world conditions requires more than accurate mode
 `Python` `PyTorch` `3D Data` `Computer Vision` `Deep Learning` `Multi-View Learning` `Medical AI`
 
 ---
+### 🏥 Optimising Large Language Models for Medical Question Answering & Clinical Decision Support
+[PROJECT NOT YET PUT ON GITHUB]
+🔗 [Repository](#) • 📄 [Dissertation](#) • 📊 [Evaluation](#)
 
-### 🏥 MedRAG — Clinical Question Answering with RAG
-> LLM-powered system that answers clinical questions grounded in indexed medical literature. Combines dense retrieval with a fine-tuned reader model to reduce hallucination in high-stakes contexts.
-`PyTorch` `LangChain` `HuggingFace` `FAISS` `Streamlit`
+> A research-driven exploration into adapting and optimising large language models (LLMs) for medical question answering and clinical decision support. The project investigates how LLMs can be enhanced to provide accurate, reliable, and context-aware responses within healthcare settings.
+> The system explores multiple adaptation strategies, including parameter-efficient fine-tuning, prompt engineering, and retrieval-based augmentation, aiming to improve domain-specific performance without relying on full-scale retraining.
+> A key focus is placed on evaluation beyond standard benchmarks, introducing more rigorous and clinically relevant assessment methods to better capture model reliability, reasoning quality, and real-world applicability.
+> The work takes a comparative approach to optimisation, analysing how different techniques impact performance, generalisation, and trustworthiness in medical contexts.
+
+- **LLM adaptation strategies** — Explores fine-tuning, prompt engineering, and retrieval-augmented approaches for domain-specific performance  
+- **Comparative optimisation study** — Systematic evaluation of multiple techniques to identify effective configurations for medical QA  
+- **Advanced evaluation framework** — Moves beyond standard benchmarks to assess reasoning quality, consistency, and clinical relevance  
+- **Medical question answering system** — Designed to support knowledge retrieval and assist clinical decision-making processes  
+- **Trust and reliability focus** — Emphasises robustness, hallucination mitigation, and safe deployment considerations in healthcare  
+- **Research-oriented implementation** — Combines experimental design, analysis, and engineering within a structured dissertation project  
+
+**Why it matters**  
+Applying large language models in healthcare requires more than raw performance — it demands reliability, interpretability, and domain alignment. This project demonstrates how careful optimisation and evaluation design can significantly improve the usefulness of LLMs in clinical contexts, contributing to safer and more effective AI-assisted decision support systems.
+
+`Python` `PyTorch` `Transformers` `LLMs` `Medical AI` `NLP` `Prompt Engineering` `PEFT`
 
 ---
 
