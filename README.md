@@ -21,6 +21,7 @@ I care about systems that are reliable, explainable, and actually deployed — n
 
 ## 🔭 What I'm Working On
 
+- **[Reliable 3D Tooth Completion](https://github.com/dgelbier23/dental-3d-vae)** — generative models that rebuild incomplete intra-oral scans, evaluated for both accuracy and consistency, so their reliability is measured, not assumed
 - **3D Medical Image Analysis** — segmentation and classification on volumetric data (CT/MRI)
 - **Clinical RAG Systems** — LLM pipelines grounded in medical literature for safer, more accurate outputs
 - **Model Optimisation** — quantisation, fine-tuning, and efficient inference for resource-constrained environments
@@ -75,6 +76,30 @@ I care about systems that are reliable, explainable, and actually deployed — n
 ---
 
 ## 🚀 Featured Projects
+
+### 🦷 Reliable 3D Tooth Completion: Accuracy and Consistency of a β-VAE (MSc Dissertation)
+
+🔗 [Repository](https://github.com/dgelbier23/dental-3d-vae) • 📊 [Results](https://github.com/dgelbier23/dental-3d-vae#results) • 🏷️ [Dissertation version](https://github.com/dgelbier23/dental-3d-vae/tree/v1.0-dissertation)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dgelbier23/dental-3d-vae/main/docs/figures/results/completion.gif" width="85%" alt="An upper first molar with 45 percent of it cut away, the model's reconstruction over it, and the reconstruction alone, rotating">
+</p>
+
+> Intra-oral 3D scans are often incomplete: the scanner cannot see behind neighbouring teeth, the patient moves, braces get in the way. This project trains a β-variational autoencoder on point clouds of real teeth (Teeth3DS+) to rebuild the missing geometry, and evaluates it on two questions: how *accurately* it completes a tooth, and how *consistently*, since a generative model can produce many plausible completions of the same input, and in clinical use there is no complete tooth to check against.
+> The work spans a full pipeline from 300 clinical jaw scans to 4,038 segmented teeth and 32,304 controlled partial teeth, an architecture study, and per-tooth evaluation with four metrics, including region-specific errors and a stochastic consistency error defined in the project. The research code was then rebuilt into a tested Python package that reproduces every reported result exactly.
+
+- **Full 3D pipeline on clinical data** — jaw scans → segmented teeth → normalised 2,048-point clouds → plane-cut and connected-patch partial teeth, seeded and reproducible
+- **Architecture study** — 4 point-cloud encoders (PointNet, T-Net PointNet, PointNet++, DGCNN) × 3 decoders (MLP, FoldingNet, AtlasNet) and an 8-value KL-weight ablation; DGCNN + FoldingNet is **14% more accurate than an MLP decoder with 91% fewer parameters**
+- **Evaluation beyond one number** — Chamfer distance, missing-region and observed-region errors, and stochastic consistency, broken down per tooth position on a dental chart
+- **Key finding** — the model's consistency is only weakly correlated with its accuracy (r ≈ 0.2–0.3): a model agreeing with itself is not evidence that it is right
+- **Verified, engineered rewrite** — all 16 trained models reproduce the original outputs; 98 automated tests; CPU-safe local development with GPU training on Colab
+
+**Why it matters**
+In clinical use there is no complete tooth to compare a completion against, so a model's reliability has to be measured, not assumed. This project shows that consistency can flag uncertainty but cannot certify accuracy, so trustworthy 3D completion needs both to be reported.
+
+`Python` `PyTorch` `3D Point Clouds` `Generative Models` `β-VAE` `DGCNN` `FoldingNet` `Medical AI` `Dental Imaging` `Reliability` `Reproducibility`
+
+---
 
 ### 🫁 Transfer Learning for Lung Disease Classification & Localisation from Chest X-Rays  
 🔗 [Repository](https://github.com/dgelbier23/lung-disease-classification-localisation.git) • 📄 [Report](https://github.com/dgelbier23/lung-disease-classification-localisation/blob/main/reports/lung_disease_classification_report.pdf) • 🎥 [Demo](https://github.com/dgelbier23/lung-disease-classification-localisation/blob/main/figures/gradcam/localisation_gradcam_ex.png)
