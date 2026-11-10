@@ -11,7 +11,7 @@
 
 I design and build AI systems with a focus on real-world constraints — not just benchmark performance.
 
-My work focuses on making modern AI systems — particularly LLMs and vision models — **reliable, efficient, and usable in high-stakes domains like healthcare**.
+My work focuses on making modern AI systems — particularly 3D, LLMs and vision models — **reliable, efficient, and usable in high-stakes domains like healthcare**.
 
 My background sits at the intersection of **machine learning**, **computer vision**, and **healthcare AI**. I've shipped production systems at BMW Group (MINI Oxford), where I worked on everything from robotic vision pipelines to NLP-driven OCR tools. Now I'm focused on where I think the most important problems are: **medical AI** and **LLM-powered clinical tools**.
 
@@ -31,6 +31,7 @@ I care about systems that are reliable, explainable, and actually deployed — n
 ## 🎯 Selected Focus Areas
 
 - Reliable AI systems in high-stakes environments  
+- 3D healthcare AI: point clouds, meshes and volumetric data (intra-oral scans, CT/MRI)  
 - Efficient adaptation of large models (LLMs, multimodal systems)  
 - Bridging research prototypes → usable systems  
 - Evaluation beyond benchmarks (robustness, failure modes, bias)  
