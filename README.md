@@ -154,6 +154,8 @@ Applying large language models in healthcare requires more than raw performance 
 
   → Argues that performance gains alone cannot establish clinical validity: the same principle behind my [3D tooth completion work](https://github.com/dgelbier23/dental-3d-vae), which measures consistency alongside accuracy
 
+  → 📄 [Download as PDF](https://github.com/dgelbier23/medical-ai-writing/blob/main/synthetic-data-medical-imaging/Synthetic_Data_in_Medical_Image_Analysis.pdf) • 📊 [Summary slides](https://github.com/dgelbier23/medical-ai-writing/blob/main/synthetic-data-medical-imaging/Synthetic_Data_in_Medical_Image_Analysis_Summary_Slides.pdf)
+
 📚 [All articles](https://github.com/dgelbier23/medical-ai-writing)
 
 ---
