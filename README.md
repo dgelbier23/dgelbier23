@@ -230,6 +230,18 @@ Applying large language models in healthcare requires more than raw performance 
 
 ---
 
+## ✍️ Writing
+
+- **[Synthetic Data in Medical Image Analysis: A Critical Evaluation](https://github.com/dgelbier23/medical-ai-writing/tree/main/synthetic-data-medical-imaging)**
+  → A map of how synthetic data is generated, integrated and evaluated in medical imaging, and a critique of two influential studies (Gao et al., 2023; Al Khalil et al., 2023)
+
+  → Argues that performance gains alone cannot establish clinical validity: the same principle behind my [3D tooth completion work](https://github.com/dgelbier23/dental-3d-vae), which measures consistency alongside accuracy
+
+📚 [All articles](https://github.com/dgelbier23/medical-ai-writing)
+
+---
+
+
 ## 🧩 How I Approach Problems
 
 - Start from the real-world constraint, not the model  
