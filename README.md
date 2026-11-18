@@ -30,7 +30,7 @@ My background sits at the intersection of **machine learning**, **computer visio
 ## 🔭 What I'm Working On
 
 - **[Reliable 3D Tooth Completion](https://github.com/dgelbier23/dental-3d-vae)** - building on my MSc dissertation: generative models that rebuild incomplete intra-oral scans, evaluated for both accuracy and consistency. Next: making the model robust to how a tooth is oriented, and testing results across multiple training seeds
-- **[Biomedical QA with small LLMs](https://github.com/dgelbier23/biomedical-qa-peft).**: rebuilding my BSc dissertation as a reproducible package, correcting its evaluation and re-running the method comparison.
+- **[Biomedical QA with small LLMs](https://github.com/dgelbier23/biomedical-qa-peft)** - rebuilding my BSc dissertation as a reproducible package, correcting its evaluation and re-running the method comparison.
 - **Looking for my next role** — in medical AI research or AI engineering, where careful evaluation matters
 
 ---
