@@ -127,23 +127,23 @@ Robust human-following in real-world conditions requires more than accurate mode
 
 ---
 
-### 🏥 Optimising Large Language Models for Medical Question Answering & Clinical Decision Support
+### 🧬 Parameter-Efficient Fine-Tuning for Biomedical Research QA (BSc Dissertation)
 
 📦 *Repository coming soon*
 
-> A research-driven exploration into adapting and optimising large language models (LLMs) for medical question answering and clinical decision support. The project investigates how LLMs can be enhanced to provide accurate, reliable, and context-aware responses within healthcare settings.
-> The system explores multiple adaptation strategies, including parameter-efficient fine-tuning, prompt engineering, and retrieval-based augmentation, aiming to improve domain-specific performance without relying on full-scale retraining.
-> A key focus is placed on evaluation beyond standard benchmarks, introducing more rigorous and clinically relevant assessment methods to better capture model reliability, reasoning quality, and real-world applicability.
+> Can a small open LLM be adapted cheaply to answer biomedical research questions? This project compares three ways of adapting Llama 3.2 3B Instruct to PubMedQA (prompt engineering, prefix tuning and LoRA on a 4-bit quantised model) against the untuned baseline, all on the same fixed 1,000-question test split with the same decoding settings.
+> The original dissertation code was rebuilt into a tested Python package and its results reproduced. Reproducing it turned up 11 flaws in the original evaluation that could bias the comparison, so the method was then corrected and every method re-scored.
 
-- **LLM adaptation strategies** — Explores fine-tuning, prompt engineering, and retrieval-augmented approaches for domain-specific performance
-- **Comparative optimisation study** — Systematic evaluation of multiple techniques to identify effective configurations for medical QA
-- **Advanced evaluation framework** — Moves beyond standard benchmarks to assess reasoning quality, consistency, and clinical relevance
-- **Trust and reliability focus** — Emphasises robustness, hallucination mitigation, and safe deployment considerations in healthcare
+- **Three adaptation methods, one base model**: prompt search on the validation split; prefix tuning (20 virtual tokens); LoRA (rank 8, 0.07% of parameters) with QLoRA-style 4-bit quantisation
+- **Reproducible data pipeline**: 211k PubMedQA rows → filtered, de-duplicated, balanced, stratified 80/10/10 splits that are byte-identical to the original run
+- **Custom evaluation framework**: yes/no read from next-token probabilities (no LLM judge), plus NLI entailment, METEOR and BERTScore on the written explanation, format adherence, bootstrap confidence intervals and paired McNemar tests
+- **Reproduce, then correct**: all four methods reproduced within agreed tolerances; flaws found along the way include a prompt chosen on test data, a required answer format the decoding settings made impossible, and a yes/no judge that was the model being evaluated
+- **Key finding**: *(fill in once the v2 results are verified)*
 
 **Why it matters**
-Applying large language models in healthcare requires more than raw performance — it demands reliability, interpretability, and domain alignment. This project explores how optimisation and evaluation design affect the usefulness of LLMs in clinical contexts.
+A comparison between models is only as good as the evaluation behind it. Small evaluation choices (decoding penalties, where a prompt is chosen, who judges the answer) can move results by several points, so they need to be checked as carefully as the models.
 
-`Python` `PyTorch` `Transformers` `LLMs` `Medical AI` `NLP` `Prompt Engineering` `PEFT`
+`Python` `PyTorch` `Hugging Face` `PEFT` `LoRA` `Prefix Tuning` `QLoRA` `bitsandbytes` `LLMs` `Llama 3.2` `PubMedQA` `NLP` `Evaluation` `Reproducibility`
 
 ---
 
