@@ -211,7 +211,7 @@ A comparison between models is only as good as the evaluation behind it. Small e
 
 | Area | Experience |
 |---|---|
-| Medical AI | 3D tooth completion, chest X-ray classification & localisation, clinical question answering |
+| Medical AI | 3D tooth completion, chest X-ray classification & localisation, biomedical research question answering |
 | 3D Deep Learning | Point clouds (PointNet, DGCNN), generative models (β-VAE), multi-view CNNs |
 | Computer Vision | Object detection, tracking, segmentation, OCR, stereo vision |
 | NLP | Transformers, RAG, document understanding, chatbots |
