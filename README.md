@@ -22,14 +22,15 @@ My background sits at the intersection of **machine learning**, **computer visio
 - **Reliable AI for healthcare:** evaluation beyond a single score (consistency, robustness, failure modes)
 - **3D deep learning:** point clouds, meshes and multi-view representations of anatomy (intra-oral scans, dental models)
 - **Medical imaging:** classification, localisation and interpretability (Grad-CAM)
-- **LLMs for clinical question answering:** parameter-efficient fine-tuning, retrieval and trustworthy evaluation
+- **LLMs for clinical question answering:** parameter-efficient fine-tuning (LoRA, prefix tuning) and trustworthy evaluation
 - **Research to real systems:** reproducible, tested pipelines and real-time perception on embedded hardware
 
 ---
 
 ## 🔭 What I'm Working On
 
-- **[Reliable 3D Tooth Completion](https://github.com/dgelbier23/dental-3d-vae)** — building on my MSc dissertation: generative models that rebuild incomplete intra-oral scans, evaluated for both accuracy and consistency. Next: making the model robust to how a tooth is oriented, and testing results across multiple training seeds
+- **[Reliable 3D Tooth Completion](https://github.com/dgelbier23/dental-3d-vae)** - building on my MSc dissertation: generative models that rebuild incomplete intra-oral scans, evaluated for both accuracy and consistency. Next: making the model robust to how a tooth is oriented, and testing results across multiple training seeds
+- **[Biomedical QA with small LLMs](https://github.com/dgelbier23/biomedical-qa-peft).**: rebuilding my BSc dissertation as a reproducible package, correcting its evaluation and re-running the method comparison.
 - **Looking for my next role** — in medical AI research or AI engineering, where careful evaluation matters
 
 ---
