@@ -130,7 +130,7 @@ Robust human-following in real-world conditions requires more than accurate mode
 
 ### 🧬 Parameter-Efficient Fine-Tuning for Biomedical Research QA (BSc Dissertation)
 
-📦 *Repository coming soon*
+🔗 [Repository](https://github.com/dgelbier23/biomedical-qa-peft) • 🏷️ [Dissertation reproduction](https://github.com/dgelbier23/biomedical-qa-peft/tree/v1-reproduction)
 
 > Can a small open LLM be adapted cheaply to answer biomedical research questions? This project compares three ways of adapting Llama 3.2 3B Instruct to PubMedQA (prompt engineering, prefix tuning and LoRA on a 4-bit quantised model) against the untuned baseline, all on the same fixed 1,000-question test split with the same decoding settings.
 > The original dissertation code was rebuilt into a tested Python package and its results reproduced. Reproducing it turned up 11 flaws in the original evaluation that could bias the comparison, so the method was then corrected and every method re-scored.
